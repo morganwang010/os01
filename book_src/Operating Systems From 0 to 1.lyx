@@ -683,7 +683,7 @@ Know how to pipe output to another program
 Touch typing.
  Since we are going to use Linux, touch typing helps.
  I know typing speed does not relate to problem-solving, but at least your
- typing speed should be fast enough not to let it get it the way and degrade
+ typing speed should be fast enough not to let it get in the way and degrade
  the learning experience.
 \end_layout
 
@@ -2537,7 +2537,7 @@ From NAND gate, we have all other gates.
 &
 \family default
  is executed by an AND circuit and so on.
- Code does not run on magic a black box.
+ Code does not run on a magic black box.
  In contrast, code execution is precise and transparent, often as simple
  as running some hardwired circuit.
  When we write software, we simply manipulate electrical current at the
@@ -2708,7 +2708,7 @@ status collapsed
 
 \begin_layout Plain Layout
 
-http://www.nxp.com/documents/data_sheet/74HC_HCT00.pdf
+http://www.scrpdf.com/pdf/Semiconductors_new/Logic/74HCT/74HC_HCT00.pdf
 \end_layout
 
 \end_inset
@@ -5273,8 +5273,8 @@ In reality, even though all languages are equivalent in power, not all of
 \end_layout
 
 \begin_layout Standard
-The higher level a programming language is, the distant it becomes with
- hardware.
+The higher level a programming language is, the more distant it becomes
+ from the hardware.
  In some high-level programming languages, such as Python, a programmer
  cannot manipulate underlying hardware, despite being able to deliver the
  same computations as low-level programming languages.
@@ -5655,8 +5655,8 @@ end{figure*}
 \begin_layout Standard
 As can be seen, the code perfectly expresses itself how the graph is connected.
  Even a non-programmer can understand and use such language easily.
- If it were to implement in C, it would be more troublesome, and this is
- assuming that the functions for drawing graphs are already available.
+ An implementation in C would be more troublesome, and that's assuming that
+ the functions for drawing graphs are already available.
  To draw a line, in C we might write something like:
 \end_layout
 
@@ -7423,14 +7423,14 @@ After understanding one CPU architecture well, it is easier to learn other
 \end_layout
 
 \begin_layout Standard
-A CPU is an implementation of an ISA, effective the implementation of an
- assembly language (and depends on the CPU architecture, the language may
- vary).
+A CPU is an implementation of an ISA, effectively the implementation of
+ an assembly language (and depending on the CPU architecture, the language
+ may vary).
  Assembly language is one of the interfaces that are provided for software
  engineers to control a CPU, thus control a computer.
  But how can every computer device be controlled with only the access to
  the CPU? The simple answer is that a CPU can communicate with other devices
- through these two interfaces, thus commanding them what to do:
+ through these two interfaces, thus commanding them:
 \end_layout
 
 \begin_layout Description

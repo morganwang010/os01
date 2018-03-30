@@ -333,8 +333,8 @@ already built an operating system.
 
 • Touch typing. Since we are going to use Linux, touch typing 
   helps. I know typing speed does not relate to problem-solving, 
-  but at least your typing speed should be fast enough not to let 
-  it get it the way and degrade the learning experience.
+  but at least your typing speed should be fast enough to not let 
+  it get in the way and degrade the learning experience.
 
 In general, I assume that the reader has basic C programming 
 knowledge, and can use an IDE to build and run a program.
@@ -918,7 +918,7 @@ From NAND gate, we have all other gates. As demonstrated, such a
 simple circuitry performs the logical operators in day-to-day 
 program languages e.g. NOT operator ~ is executed directly by an 
 inverter circuit, and operator & is executed by an AND circuit 
-and so on. Code does not run on magic a black box. In contrast, 
+and so on. Code does not run on a magic black box. In contrast, 
 code execution is precise and transparent, often as simple as 
 running some hardwired circuit. When we write software, we simply 
 manipulate electrical current at the physical level to run 
@@ -973,7 +973,7 @@ logic gates. This feature is what make the chip popular.
 
   [float Figure:
 [Figure 0.3:
-74HC00 logic diagrams (Source: 74HC00 datasheet, http://www.nxp.com/documents/data_sheet/74HC_HCT00.pdf
+74HC00 logic diagrams (Source: 74HC00 datasheet, https://neurophysics.ucsd.edu/courses/physics_120/74HC00_QUAD_NAND.pdf
 )
 ]
 
@@ -1411,8 +1411,8 @@ not all of them are capable of express programs of each other.
 Programming languages vary between two ends of a spectrum: high 
 level and low level. 
 
-The higher level a programming language is, the distant it 
-becomes with hardware. In some high-level programming languages, 
+The higher level a programming language is, the more distant it 
+becomes from the hardware. In some high-level programming languages, 
 such as Python, a programmer cannot manipulate underlying 
 hardware, despite being able to deliver the same computations as 
 low-level programming languages. The reason is that high-level 
@@ -1561,8 +1561,8 @@ that provides a language, called dot, for describing graph:
 
   As can be seen, the code perfectly expresses itself how the 
   graph is connected. Even a non-programmer can understand and 
-  use such language easily. If it were to implement in C, it 
-  would be more troublesome, and this is assuming that the 
+  use such language easily. An implementation in C
+  would be more troublesome, and that's assuming that the 
   functions for drawing graphs are already available. To draw a 
   line, in C we might write something like:
 
@@ -2019,15 +2019,14 @@ essential to writing an OS from scratch:
 • After understanding one CPU architecture well, it is easier to 
   learn other CPU architectures.
 
-A CPU is an implementation of an ISA, effective the 
-implementation of an assembly language (and depends on the CPU 
+A CPU is an implementation of an ISA, effectively the 
+implementation of an assembly language (and depending on the CPU 
 architecture, the language may vary). Assembly language is one of 
 the interfaces that are provided for software engineers to 
 control a CPU, thus control a computer. But how can every 
 computer device be controlled with only the access to the CPU? 
 The simple answer is that a CPU can communicate with other 
-devices through these two interfaces, thus commanding them what 
-to do:
+devices through these two interfaces, thus commanding them:
 
   Registers Registers[margin:
 Registers
